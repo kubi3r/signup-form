@@ -16,7 +16,7 @@ body {
 .img-banner {
     color: white;
     height: 75vh;
-    width: 40vw;
+    min-width: 40vw;
     background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,4 +51,14 @@ body {
 .banner-text > img {
     width: auto;
     height: 100%;
+}
+
+.signup-form {
+    padding: 150px 50px;
+}
+
+
+.header {
+    font-weight: bold;
+    font-size: 24px;
 }
